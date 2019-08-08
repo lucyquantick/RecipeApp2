@@ -1,0 +1,21 @@
+{
+	"name": "recipeapp2",
+	"version": "1.0.0",
+	"description": "forkify proj in VS",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack --mode development",
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --mode development --open"
+	},
+	"author": "Lucy Quantick",
+	"license": "ISC",
+	"devDependencies": {
+		"webpack": "^4.39.1",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"dependencies": {
+		"jquery": "^3.4.1"
+	}
+}
